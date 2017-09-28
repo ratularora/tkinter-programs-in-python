@@ -1,0 +1,10 @@
+image    	To display an image on this menubutton.
+selectcolor	Specifies the color displayed in checkbuttons and radiobuttons when they are selected.
+tearoff	        Normally, a menu can be torn off, the first position (position 0) in the list of choices is occupied by the tear-off element, and the additional choices are added starting at position 1. If you set tearoff=0, the menu will not have a tear-off feature, and choices will be added starting at position 0.
+title	        Normally, the title of a tear-off menu window will be the same as the text of the menubutton or cascade that lead to this menu. If you want to change the title of that window, set the title option to that string.
+
+add_separator()	                Adds a separator line to the menu.
+
+add_command (options)	        Adds a menu item to the menu.
+add_radiobutton( options )	Creates a radio button menu item.
+add_checkbutton( options )	Creates a check button menu item.

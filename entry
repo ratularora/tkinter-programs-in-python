@@ -1,0 +1,3 @@
+show	Normally, the characters that the user types appear in the entry. To make a .password. entry that echoes each character as an asterisk, set show="*".
+
+get()	Returns the entry's current text as a string.

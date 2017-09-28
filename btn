@@ -1,0 +1,28 @@
+#laurus tech
+Syntax
+
+Here is the simple syntax to create this widget −
+
+w = Button ( master, option=value, ... )
+
+Parameters
+
+    master: This represents the parent window.
+
+    options: Here is the list of most commonly used options for this widget. These options can be used as key-value pairs separated by commas.
+
+
+options:
+
+activebackground	Background color when the button is under the cursor.
+activeforeground	Foreground color when the button is under the cursor.
+bd			Border width in pixels. Default is 2.
+bg			Normal background color.
+command			Function or method to be called when the button is clicked.
+fg			Normal foreground (text) color.
+font			Text font to be used for the button's label.
+height			Height of the button in text lines (for textual buttons) or pixels (for images).
+highlightcolor		The color of the focus highlight when the widget has focus.
+image			Image to be displayed on the button (instead of text).
+justify			How to show multiple text lines: LEFT to left-justify each line; CENTER to center them; or RIGHT to right-justify.
+width			Width of the button in letters (if displaying text) or pixels (if displaying an image).

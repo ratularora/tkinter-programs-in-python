@@ -1,0 +1,7 @@
+show	Normally, the characters that the user types appear in the entry. To make a .password. entry that echoes each character as an asterisk, set show="*".
+selectbackground	The background color to use displaying selected text.
+selectborderwidth	The width of the border to use around selected text. The default is one pixel.
+selectforeground	The foreground (text) color of selected text.
+textvariable	In order to be able to retrieve the current text from your entry widget, you must set this option to an instance of the StringVar class.
+
+get()	Returns the entry's current text as a string.
